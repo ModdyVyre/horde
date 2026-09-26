@@ -24,8 +24,8 @@ SWEP.WorldModel = "models/weapons/w_pist_elite.mdl"
 
 SWEP.NoHideLeftHandInCustomization = true
 
-SWEP.Damage = 110
-SWEP.DamageMin = 65
+SWEP.Damage = 140
+SWEP.DamageMin = 95
 SWEP.Range = 75
 SWEP.Penetration = 6
 
@@ -34,8 +34,8 @@ SWEP.Primary.ClipSize = 12
 
 SWEP.ReloadInSights = true
 
-SWEP.Recoil = 2.2
-SWEP.RecoilSide = 0.8
+SWEP.Recoil = 1.65
+SWEP.RecoilSide = 0.6
 SWEP.RecoilRise = 0.1
 SWEP.MaxRecoilBlowback = 0
 SWEP.VisualRecoilMult = 0
@@ -123,16 +123,17 @@ SWEP.Animations = {
     },
     ["reload"] = {
         Source = "reload",
+        Time = 200/50,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_DUEL,
         SoundTable = {
-            { s = ")horde/weapons/kf/revolver/cylinder_open.wav", t = 1 / 40 },
-            { s = ")horde/weapons/kf/revolver/rounds_eject.wav", t = 16 / 40 },
-            { s = ")horde/weapons/kf/revolver/rounds_insert.wav", t = 62 / 40 },
-            { s = ")horde/weapons/kf/revolver/cylinder_close.wav", t = 78 / 40 },
-            { s = ")horde/weapons/kf/revolver/cylinder_open.wav", t = 104 / 40 },
-            { s = ")horde/weapons/kf/revolver/rounds_eject.wav", t = 122 / 40 },
-            { s = ")horde/weapons/kf/revolver/rounds_insert.wav", t = 148 / 40 },
-            { s = ")horde/weapons/kf/revolver/cylinder_close.wav", t = 165 / 40 },
+            { s = ")horde/weapons/kf/revolver/cylinder_open.wav", t = 1 / 50 },
+            { s = ")horde/weapons/kf/revolver/rounds_eject.wav", t = 16 / 50 },
+            { s = ")horde/weapons/kf/revolver/rounds_insert.wav", t = 62 / 50 },
+            { s = ")horde/weapons/kf/revolver/cylinder_close.wav", t = 78 / 50 },
+            { s = ")horde/weapons/kf/revolver/cylinder_open.wav", t = 104 / 50 },
+            { s = ")horde/weapons/kf/revolver/rounds_eject.wav", t = 122 / 50 },
+            { s = ")horde/weapons/kf/revolver/rounds_insert.wav", t = 148 / 50 },
+            { s = ")horde/weapons/kf/revolver/cylinder_close.wav", t = 165 / 50 },
         }
     },
     ["fire"] = {
